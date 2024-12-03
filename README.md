@@ -2,9 +2,6 @@ Data Formate:
 [Test 1 score][Test 2 score][Test 3 score][Test 4 score][hours_studied_per_week][attendence_percent][classes_missed][office_hours_attended][StudyHours_Attendence_interaction][Passed the class]
 
 Trained on 20,000 data points
-
-Dev Log:
-9/27/24
 Wrote the inital neural network and accompanying scripts
 -> dataReformater.py takes in the inital data set generated with chatGPT, and changes the "Passed the class" column from Yes/No to 1/0.
    It also divides all the other columns by 100 to normalize the data.
