@@ -1,8 +1,6 @@
 import tensorflow as tf
 from tensorflow import keras
 import numpy as np
-import matplotlib as mpl
-import pandas as pd
 
 model = keras.models.load_model('passPredictor.keras')
 #print(model.summary())

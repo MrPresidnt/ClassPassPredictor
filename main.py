@@ -1,7 +1,6 @@
 import tensorflow as tf
 from tensorflow import keras
 import numpy as np
-import matplotlib as mpl
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
